@@ -16,7 +16,7 @@ Task Manager allows users to create, view, modify, and delete tasks. Each task c
 
 1. Clone the repository:
 
-git clone https://github.com/vsalt.xx/django-task_manager_app.git
+git clone https://github.com/vsaltxx/django-task_manager_app.git
 
 2. Install dependencies:
 
