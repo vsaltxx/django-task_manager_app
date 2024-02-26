@@ -17,8 +17,3 @@ def delete_task(request, task_id):
     Task.objects.filter(id=task_id).delete()
     return redirect('task_list')
 
-def complete_task(request, task_id):
-    task = Task.objects.get(id=task_id)
-    task.completed = True
-    task.save()
-    return redirect('task_list')
